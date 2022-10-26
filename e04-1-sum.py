@@ -2,11 +2,13 @@
 # 입력: n
 # 출력: 1부터 n까지 연속한 숫자를 더한 합
 
+# 재귀 호출
 def sum(n):
     if n == 0:
         return 0
     return sum(n - 1) + n
 
+# 반복문
 def sumfor(n):
     i = 1
     sum = 0

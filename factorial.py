@@ -15,6 +15,5 @@ def fact(n):
     else:
         return n * fact(n-1)
 
-
 print('반복문', factfor(5))
 print('재귀호출', fact(5))
